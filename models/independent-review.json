@@ -1,0 +1,211 @@
+{
+  "software_versions": {
+    "numpy": "2.3.5",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "pymeshlab": "2025.7.post1",
+    "vtk": "9.3.1",
+    "cadquery": "2.7.0"
+  },
+  "reviewer": "independent validation agent",
+  "timestamp_utc": "2026-10-11T17:51:38Z",
+  "files": {
+    "stl": {
+      "path": "/workspace/modelo-3d/models/swift_hybrid_2026_60mm.stl",
+      "sha256": "6b438093a809ab112c32b68417e2054a94794a380706a8e6a1ba36b5bb824077",
+      "bytes": 5835384
+    },
+    "3mf": {
+      "path": "/workspace/modelo-3d/models/swift_hybrid_2026_60mm.3mf",
+      "sha256": "5c0a2e7d5af5fecc769c2e6c5681fe28b63eb99f082b57faaf0ac3144e80e621",
+      "bytes": 2267482
+    },
+    "step": {
+      "path": "/workspace/modelo-3d/models/swift_hybrid_2026_60mm.step",
+      "sha256": "983a842d4ca7d8ff1c20933207014d55eb7b82d2c8f06fb12c393d1b5b4a59fd",
+      "bytes": 5037592
+    }
+  },
+  "checks": {
+    "stl": {
+      "vertices_after_merging_identical_coordinates": 58277,
+      "triangles": 116706,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_surface_components": 1,
+      "component_signed_volumes_mm3": [
+        23743.217910432413
+      ],
+      "degenerate_triangles_exact_zero_area": 0,
+      "euler_number": -76,
+      "bounds_mm": [
+        [
+          0.0,
+          -14.699999809265137,
+          -8.881784197001252e-16
+        ],
+        [
+          66.5,
+          14.699999809265137,
+          23.082901000976562
+        ]
+      ],
+      "dimensions_mm": [
+        66.5,
+        29.399999618530273,
+        23.082901000976562
+      ],
+      "signed_volume_mm3": 23743.217910432413,
+      "mesh_geometry_sha256": "d6930af637f26d99e8430b601556607678c9d79348c9ebd9482f0b70a3391dd7",
+      "self_intersection_selected_faces_pymeshlab": 5,
+      "self_intersection_nonadjacent_AABB_pairs_refined": 549,
+      "vtk_strict_boolean_candidate_hits": 0,
+      "vtk_segment_intersections_tolerance_1e_9mm": [],
+      "confirmed_nonadjacent_intersections": 0,
+      "self_intersection_explanation": "MeshLab floating-point candidates are refined against all nearby nonadjacent faces with the VTK segment intersection routine at 1e-9 mm tolerance; shared vertices/edges are excluded. The raw candidate counts remain recorded.",
+      "manifold3d_status": "Error.NoError",
+      "manifold3d_components": 1,
+      "lowest_planar_contact_area_mm2": 33.4906022112591,
+      "lowest_planar_contact_faces": 8
+    },
+    "3mf_mesh": {
+      "vertices_after_merging_identical_coordinates": 58277,
+      "triangles": 116706,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_surface_components": 1,
+      "component_signed_volumes_mm3": [
+        23743.217968980633
+      ],
+      "degenerate_triangles_exact_zero_area": 0,
+      "euler_number": -76,
+      "bounds_mm": [
+        [
+          0.0,
+          -14.7,
+          -8.881784197001252e-16
+        ],
+        [
+          66.5,
+          14.7,
+          23.082901554404145
+        ]
+      ],
+      "dimensions_mm": [
+        66.5,
+        29.4,
+        23.082901554404145
+      ],
+      "signed_volume_mm3": 23743.217968980633,
+      "mesh_geometry_sha256": "b9a7ec1594ae0e4d53b12f6c6ea73e1aea9eb87d8adbf2610081461ce53cbb2d",
+      "self_intersection_selected_faces_pymeshlab": 127,
+      "self_intersection_nonadjacent_AABB_pairs_refined": 9898,
+      "vtk_strict_boolean_candidate_hits": 13,
+      "vtk_segment_intersections_tolerance_1e_9mm": [],
+      "confirmed_nonadjacent_intersections": 0,
+      "self_intersection_explanation": "MeshLab floating-point candidates are refined against all nearby nonadjacent faces with the VTK segment intersection routine at 1e-9 mm tolerance; shared vertices/edges are excluded. The raw candidate counts remain recorded.",
+      "manifold3d_status": "Error.NoError",
+      "manifold3d_components": 1,
+      "lowest_planar_contact_area_mm2": 33.490593365589625,
+      "lowest_planar_contact_faces": 8
+    },
+    "3mf_package": {
+      "unit": "millimeter",
+      "mesh_objects": 1,
+      "build_items": [
+        {
+          "objectid": "1"
+        }
+      ],
+      "component_instances": [
+        {
+          "objectid": "0"
+        }
+      ],
+      "texture_resources": 0,
+      "package_entries": [
+        "_rels/.rels",
+        "[Content_Types].xml",
+        "3D/3dmodel.model"
+      ],
+      "bounds_delta_vs_stl_mm": 5.534275828722457e-07,
+      "relative_volume_delta_vs_stl": 2.4658923489823875e-09
+    },
+    "step": {
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "bounds_mm": [
+        [
+          -1e-07,
+          -14.700000000000001,
+          -1.0000050714987764e-07
+        ],
+        [
+          66.5000001,
+          14.700000000000001,
+          23.082906323065366
+        ]
+      ],
+      "volume_mm3": 23762.354386821356,
+      "relative_volume_delta_vs_stl": 0.0008053274552439294,
+      "ring_hole_3_98mm_probe_intersection_mm3": 0.0,
+      "mesh_deflection_parameter": 0.025,
+      "mesh_angular_tolerance_rad": 0.07,
+      "mesh_vertex_count": 81846,
+      "mesh_triangle_count": 116694,
+      "mesh_bounds_mm": [
+        [
+          0.0,
+          -14.7,
+          -8.881784197001e-16
+        ],
+        [
+          66.5,
+          14.7,
+          23.082901554404
+        ]
+      ],
+      "mesh_bounds_max_delta_vs_stl_mm": 5.534274372109849e-07,
+      "cad_BBox_vs_mesh_bounds_max_delta_mm": 4.768661366227889e-06
+    }
+  },
+  "failed_checks": [],
+  "overall_geometry_validation": "passed",
+  "manufacturing_review": {
+    "orientation": "Four tire contact planes down; retain supplied XYZ orientation.",
+    "supports": "Supports required under chassis, keyring mount underside, and other unsupported overhangs; build plate supports with brim recommended.",
+    "layer_height_mm": "0.12–0.16",
+    "nozzle_mm": "0.4 usable; 0.25–0.3 captures grille, grooves, and light outlines better.",
+    "nominal_ring_hole_diameter_mm": 4.0,
+    "nominal_ring_radial_wall_mm": 2.5,
+    "nominal_ring_thickness_mm": 3.2,
+    "smallest_design_decorative_line_mm": 0.4,
+    "smallest_detail_note": "The hexagonal grille walls are approximately 0.40 mm and hatch grooves 0.44 mm. Decorative details of 0.40–0.58 mm approach the limit of a 0.4 mm nozzle; 0.25–0.3 mm captures them more faithfully. No complete minimum-thickness field analysis was performed.",
+    "material": "PETG preferred for keyring durability; PLA also feasible.",
+    "physical_print_test": "not performed",
+    "physical_load_test": "not performed",
+    "nominal_hex_grille_wall_mm": 0.3983716857408418
+  },
+  "identity_limit": "Original CAD interpretation of official Suzuki Swift Hybrid GLX Plus generation-four exterior references, current Chilean 2026 model; not OEM dimensional CAD or guaranteed exact reproduction.",
+  "final_export_hashes_rechecked": {
+    "stl": true,
+    "3mf": true,
+    "step": true
+  },
+  "final_export_hashes_rechecked_at_utc": "2026-10-11T17:55:28.749587+00:00",
+  "self_intersection_diagnosis": {
+    "raw_pymeshlab_selected_faces": {
+      "stl": 5,
+      "3mf": 127
+    },
+    "nonadjacent_AABB_neighbor_pairs_refined": {
+      "stl": 549,
+      "3mf": 9898
+    },
+    "confirmed_intersection_segments": 0,
+    "refinement_routine": "vtkIntersectionPolyDataFilter.TriangleTriangleIntersection",
+    "geometric_tolerance_mm": 1e-09,
+    "explanation": "The boolean check without tolerance reports 13 candidates in the double-precision 3MF; the intersection-segment routine at 1e-9 mm rejects all of them. Vertex/edge adjacency is excluded from nonadjacent checks. Raw candidate counts remain visible rather than being treated as confirmed crossings. The global MeshLab pass supplies candidate faces; all their nearby nonadjacent AABB neighbors are refined."
+  }
+}

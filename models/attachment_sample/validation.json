@@ -1,0 +1,12 @@
+{
+  "cad_valid": true,
+  "solids": 1,
+  "hole_clear_mm": 4.0,
+  "radial_wall_mm": 2.5,
+  "attachment_thickness_mm": 3.2,
+  "rear_extent_mm": 66.5,
+  "joining_probe_overlap_mm3": 44.798,
+  "physical_load_test": "not_performed",
+  "complete_vehicle_model": false,
+  "step_round_trip": "passed"
+}

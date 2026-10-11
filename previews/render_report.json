@@ -1,0 +1,21 @@
+{
+  "source": "/workspace/modelo-3d/models/swift_hybrid_2026_60mm.stl",
+  "source_sha256": "6b438093a809ab112c32b68417e2054a94794a380706a8e6a1ba36b5bb824077",
+  "dimensions_mm": [
+    66.5,
+    29.4,
+    23.0829
+  ],
+  "renderer": "Blender Cycles CPU",
+  "pixels": 1000,
+  "images": [
+    "/workspace/modelo-3d/previews/front_3q.png",
+    "/workspace/modelo-3d/previews/rear_3q.png",
+    "/workspace/modelo-3d/previews/side.png",
+    "/workspace/modelo-3d/previews/top.png",
+    "/workspace/modelo-3d/previews/front.png",
+    "/workspace/modelo-3d/previews/rear.png"
+  ],
+  "mesh_altered": false,
+  "source_changed_during_render": false
+}

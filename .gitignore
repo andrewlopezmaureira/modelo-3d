@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.blend1
+/references/official/
+/references/vendor/

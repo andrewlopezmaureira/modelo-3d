@@ -1,0 +1,56 @@
+{
+  "source": "/workspace/modelo-3d/models/swift_hybrid_2026_60mm.stl",
+  "source_sha256": "6b438093a809ab112c32b68417e2054a94794a380706a8e6a1ba36b5bb824077",
+  "probe_center_xy_mm": [
+    62.0,
+    0.0
+  ],
+  "nominal_hole_diameter_mm": 4.0,
+  "rays_per_section": 180,
+  "sections": [
+    {
+      "z_mm": 3.05,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 3.566667,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 4.083333,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 4.6,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 5.116667,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 5.633333,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    },
+    {
+      "z_mm": 6.15,
+      "minimum_clear_radius_mm": 1.999992,
+      "maximum_clear_radius_mm": 1.999996,
+      "center_in_material_by_ray_parity": false
+    }
+  ],
+  "sampled_clear_sections": true,
+  "physical_load_test": "not_performed"
+}

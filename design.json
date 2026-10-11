@@ -1,0 +1,41 @@
+{
+  "vehicle_requested": "Suzuki Swift 2026 híbrido",
+  "reference_status": "verified_official_sources",
+  "manufacturing": "FDM",
+  "materials": [
+    "PLA",
+    "PETG"
+  ],
+  "assembly": "single_piece",
+  "wheels": "fixed",
+  "details": "relief",
+  "car_length_mm": 60.0,
+  "attachment": {
+    "location": "rear_center",
+    "hole_diameter_mm": 4.0,
+    "outer_diameter_mm": 9.0,
+    "thickness_mm": 3.2,
+    "center_offset_from_rear_mm": 2.0,
+    "car_overlap_mm": 2.5,
+    "total_length_with_attachment_mm": 66.5
+  },
+  "print_defaults": {
+    "nozzle_mm": 0.4,
+    "layer_height_mm": 0.16,
+    "perimeters": 4,
+    "attachment_local_infill_percent": 100,
+    "supports": "required_from_build_plate",
+    "infill_percent": 30
+  },
+  "pending": [],
+  "trim": "GLX Plus",
+  "model_status": "digital_validation_complete",
+  "scale_ratio": 64.33333333333333,
+  "nominal_body_width_mm": 26.968911917098445,
+  "total_width_with_mirrors_mm": 29.4,
+  "height_mm": 23.082901554404145,
+  "wheelbase_mm": 38.082901554404145,
+  "reference_notes": "Carrocería GLX Plus comercializada en Chile en 2026; CAD original interpretado desde fotografías y dimensiones oficiales.",
+  "physical_print_test": "not_performed",
+  "nominal_grille_wall_mm": 0.398
+}
