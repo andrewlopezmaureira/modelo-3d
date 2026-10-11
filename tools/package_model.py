@@ -30,6 +30,8 @@ def main():
     files += [ROOT / "models" / f"{STEM}.{x}" for x in ["stl", "3mf", "step"]]
     files += [ROOT / "models" / x for x in ["validation.json", "independent-review.json",
                                            "keyring_validation.json"]]
+    files += [ROOT / "models/attachment_sample" / x for x in
+              ["attachment_sample.stl", "attachment_sample.step", "validation.json"]]
     for view in ["front_3q", "rear_3q", "side", "top", "front", "rear"]:
         path = ROOT / "previews" / f"{view}.png"
         assert path.is_file() and path.stat().st_size > 10_000, view
